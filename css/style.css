@@ -77,14 +77,6 @@ footer img{
   height: 4rem;
 }
 
-.left{
- margin-left: 25vw;
-}
-
-.fa{
-  color: #D56724;
-}
-
 ul{
   list-style: none;
   padding: 0;
@@ -92,12 +84,36 @@ ul{
   display: inline-block;
 }
 
-li{
-
-}
-
 span{
    color: #D56724;
+}
+
+input, label, textarea{
+  display: block;
+}
+
+input{
+  width: 90%;
+  height: 2rem;
+}
+
+textarea{
+  width: 95%;
+}
+
+input[type=submit]{
+  width: 20%;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #D56724;
+  color: white;
+  height: auto;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+}
+
+input[type=submit]:hover{
+  cursor: pointer;
 }
 
 .hero {
@@ -155,33 +171,6 @@ span{
   font-size: 10vw;
 }
 
-input, label, textarea{
-  display: block;
-}
-
-input{
-  width: 90%;
-  height: 2rem;
-}
-
-textarea{
-  width: 95%;
-}
-
-input[type=submit]{
-  width: 20%;
-  margin: 2rem auto;
-  padding: 1rem;
-  background-color: #D56724;
-  color: white;
-  height: auto;
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 1rem;
-}
-
-input[type=submit]:hover{
-  cursor: pointer;
-}
 
 .section-mission{
 	background-color: #EEEFE5;
@@ -193,9 +182,8 @@ input[type=submit]:hover{
 .section-contact{
   background-color: #EEEFE5;
   padding: 20vh 10vw 20vh 10vw;
-
-
 }
+
 .mission-title{
   color: #666666;
   font-family: 'Roboto Condensed', sans-serif;
@@ -271,5 +259,12 @@ input[type=submit]:hover{
   flex: 1 auto;
 }
 
+.left{
+ margin-left: 25vw;
+}
+
+.fa{
+  color: #D56724;
+}
 
 
