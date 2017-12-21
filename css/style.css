@@ -226,6 +226,7 @@ input[type=submit]:hover{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
 }
 
 .logo{
@@ -247,7 +248,7 @@ input[type=submit]:hover{
 }
 .cards-container{
   display: flex;
-  justify-content: center;
+
   flex-wrap: wrap;
 }
 
@@ -255,7 +256,7 @@ input[type=submit]:hover{
   padding: 0.01em 16px;
   flex: 1;
   min-width: 12rem;
-  max-width: 18rem;
+  max-width: 21rem;
 }
 
 .contact-container{
@@ -291,6 +292,12 @@ input[type=submit]:hover{
 
 .fa{
   color: #D56724;
+}
+
+@media screen and (max-width: 840px) {
+  .cards-container{
+    justify-content: center;
+  }
 }
 
 
