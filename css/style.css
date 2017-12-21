@@ -254,7 +254,7 @@ input[type=submit]:hover{
 .card-container{
   padding: 0.01em 16px;
   flex: 1;
-  min-width: 18rem;
+  min-width: 12rem;
   max-width: 18rem;
 }
 
