@@ -189,6 +189,11 @@ input[type=submit]:hover{
 	padding: 20vh 10vw 20vh 10vw;
 }
 
+.mission-container{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .section-contact{
   background-color: #EEEFE5;
   padding: 20vh 10vw 20vh 10vw;
@@ -247,8 +252,8 @@ input[type=submit]:hover{
 .card-container{
   padding: 0.01em 16px;
   flex: 1;
-  min-width: 200px;
-  max-width: 300px;
+  min-width: 18rem;
+  max-width: 18rem;
 }
 
 .contact-container{
