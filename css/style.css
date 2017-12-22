@@ -244,9 +244,6 @@ input[type=submit]:hover{
   padding: 0 5vw 0 5vw;
   text-align: center;
   flex: 1;
-  -webkit-box-flex: 1;   /* OLD - iOS 6-, Safari 3.1-6 */
-  -webkit-flex: 1;       /* Safari 6.1+. iOS 7.1+, BB10 */
-  -ms-flex: 1;           /* IE 10 */
   min-width: 12rem;
   max-width: 12rem;
 }
