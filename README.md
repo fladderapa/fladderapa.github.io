@@ -56,3 +56,7 @@ Samt även för contact-container som inehåller mina input-fält
 
 
 		Jag har testat sidan med Internet explorer version 11,10, 9, 8. Edge. Chrome på Android. Ios på iphone. Och Chrome på datorn. Och i mina mått mätt funkar sidan på samtliga webbläsare.
+
+
+		Github-repository: https://github.com/fladderapa/fladderapa.github.io
+		Live-page sidan: https://fladderapa.github.io/
