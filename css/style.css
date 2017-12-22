@@ -115,6 +115,10 @@ input[type=submit]:hover{
   text-transform: uppercase;
   text-decoration: none;
   color: white;
+  display: flex;
+  display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex
 }
 
 .nav-container{
@@ -224,6 +228,9 @@ input[type=submit]:hover{
 
 .category-container{
   display: flex;
+  display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex
   flex-wrap: wrap;
   justify-content: center;
 
@@ -237,6 +244,9 @@ input[type=submit]:hover{
   padding: 0 5vw 0 5vw;
   text-align: center;
   flex: 1;
+  -webkit-box-flex: 1;   /* OLD - iOS 6-, Safari 3.1-6 */
+  -webkit-flex: 1;       /* Safari 6.1+. iOS 7.1+, BB10 */
+  -ms-flex: 1;           /* IE 10 */
   min-width: 12rem;
   max-width: 12rem;
 }
@@ -247,14 +257,19 @@ input[type=submit]:hover{
   text-align: center;
 }
 .cards-container{
-  display: flex;
-
   flex-wrap: wrap;
+  display: flex;
+  display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex
 }
 
 .card-container{
   padding: 0.01em 16px;
   flex: 1;
+  -webkit-box-flex: 1;   /* OLD - iOS 6-, Safari 3.1-6 */
+  -webkit-flex: 1;       /* Safari 6.1+. iOS 7.1+, BB10 */
+  -ms-flex: 1;           /* IE 10 */
   min-width: 12rem;
   max-width: 21rem;
 }
